@@ -1,0 +1,36 @@
+.header {
+    padding: 1rem 0;
+    box-shadow: 2px 4px 10px #ccc;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.search {
+    width: 570px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #F9F9F9;
+    padding-left: 10px;
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    background-color: #F9F9F9;
+}
+
+.profile_nav {
+    display: flex;
+    gap: 30px;
+}

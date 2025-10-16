@@ -1,0 +1,64 @@
+.Newsletter {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    height: 225px;
+}
+
+.btn {
+    padding: 12px 24px;
+    width: 148px;
+    height: 49px;
+    cursor: pointer;
+    background: #245462;
+    color: white;
+}
+
+.title {
+    margin-top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+
+    color: #000000;
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 768px;
+    line-height: 150%;
+    margin-top: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.Newsletter_input {
+    margin-top: 24px;
+    display: flex;
+    padding: 16px 0px 0px;
+    gap: 16px;
+
+    width: 513px;
+    height: 65px;
+}
+
+.Newsletter_input input {
+
+    padding: 12px;
+    width: 349px;
+    height: 49px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
